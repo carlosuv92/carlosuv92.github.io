@@ -1,0 +1,29 @@
+.body-banner {
+    background-color: #f9f9fc;
+    padding: 20px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-title {
+    text-align: left;
+    color: #000;
+}
+
+.title-banner {
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 40px 70px;
+}
+
+.title-bagde {
+    color: #5e3aee;
+}
+
+.subtitle-banner {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+    padding: 0px 70px;
+}

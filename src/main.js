@@ -1,4 +1,16 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+// Feather Icons
+import VueFeather from "vue-feather";
+
+//Vue Router
+import router from "./router";
+
+// Import the styles
+import "./styles/styles.scss";
+
+const app = createApp(App);
+app.component(VueFeather.name, VueFeather);
+app.use(router);
+app.mount("#app");
